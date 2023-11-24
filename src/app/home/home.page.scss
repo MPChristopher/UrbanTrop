@@ -1,27 +1,39 @@
-#container {
-  text-align: center;
+*{
+  font-family: "Just Me Again Down Here";
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.Carita{
+  margin-top: 2rem;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
+.BACKGROUND{
+  --background:#F2B807;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Text{
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal; 
+  padding-bottom: 2rem;
   margin: 0;
+  align-items: center;
 }
-
-#container a {
-  text-decoration: none;
+.Sesion{
+  --background:#ffff;
+  --border-radius: 30px;
+  height: 15%;
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+}
+.Boton{
+  width: 70%;
+  font-size: 25px;
+  font-family: "Jockey One";
+  --border-radius: 20px;
+  height: 2%;
 }
