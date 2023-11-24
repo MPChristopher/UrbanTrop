@@ -1,0 +1,7 @@
+{
+  "name": "UrbanTrop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
